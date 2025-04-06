@@ -56,6 +56,52 @@ import { ToggleDemo, ToggleOutline, ToggleWithText } from "./_ui/toggle";
 import { TooltipDemo } from "./_ui/tooltip";
 import { TooltipInCopyExample } from "../react-bootstrap/_ui/overlay-tooltip";
 import { ToolbarBasicExample } from "../react-bootstrap/_ui/button-group";
+import { AreaChartAxis } from "./_ui/charts/area/axes";
+import { AreaChartGradient } from "./_ui/charts/area/gradient";
+import { AreaChartIcon } from "./_ui/charts/area/icons";
+import { AreaChartInteractive } from "./_ui/charts/area/interactive";
+import { AreaChartLegend } from "./_ui/charts/area/legend";
+import { AreaChartLinear } from "./_ui/charts/area/linear";
+import { AreaChartStacked } from "./_ui/charts/area/stack";
+import { AreaChartStackedExpanded } from "./_ui/charts/area/stacked-expanded";
+import { AreaChartStep } from "./_ui/charts/area/step";
+import { BarChartActive } from "./_ui/charts/bar/active";
+import { BarChartCustomLabel } from "./_ui/charts/bar/custom-label";
+import { BarChartHorizontal } from "./_ui/charts/bar/horizontal";
+import { BarChartInteractive } from "./_ui/charts/bar/interactive";
+import { BarChartLabel } from "./_ui/charts/bar/label";
+import { BarChartMixed } from "./_ui/charts/bar/mixed";
+import { BarChart } from "lucide-react";
+import { BarChartMultiple } from "./_ui/charts/bar/multiple";
+import { BarChartNegative } from "./_ui/charts/bar/negative";
+import { BarChartStackedLegend } from "./_ui/charts/bar/stacked-legend";
+import { LineChartCustomLabel } from "./_ui/charts/line/custom-label";
+import { LineChartDotsColors } from "./_ui/charts/line/dots-colors";
+import { LineChartLabel } from "./_ui/charts/line/label";
+import { LineChartLine } from "./_ui/charts/line/line";
+import { LineChartLinear } from "./_ui/charts/line/linear";
+import { LineChartMultiple } from "./_ui/charts/line/multiple";
+import { LineChartStep } from "./_ui/charts/line/step";
+import { PieChartCustomLabel } from "./_ui/charts/pie/custom-label";
+import { PieChartDonutActive } from "./_ui/charts/pie/donut-active";
+import { PieChartDonutText } from "./_ui/charts/pie/donut-text";
+import { PieChartLabelList } from "./_ui/charts/pie/label-list";
+import { PieChartLegend } from "./_ui/charts/pie/legend";
+import { PieChartStacked } from "./_ui/charts/pie/stacked";
+import { RadarChartGridCircle } from "./_ui/charts/radar/grid-circle";
+import { RadarChartLegend } from "./_ui/charts/radar/legend";
+import { RadarChartLinesOnly } from "./_ui/charts/radar/lines-only";
+import { RadarChartMultiple } from "./_ui/charts/radar/mutiple";
+import { RadarChartRadiusAxis } from "./_ui/charts/radar/radius-axis";
+import { RadialGrid } from "./_ui/charts/radial/grid";
+import { RadialLabel } from "./_ui/charts/radial/label";
+import { RadialShape } from "./_ui/charts/radial/shape";
+import { RadialStacked } from "./_ui/charts/radial/stacked";
+import { RadialText } from "./_ui/charts/radial/text";
+import { TooltipChartAdvance } from "./_ui/charts/tooltip/advance";
+import { TooltipChartCustomLabel } from "./_ui/charts/tooltip/custom-label";
+import { TooltipChartIcons } from "./_ui/charts/tooltip/icons";
+import { TooltipChartLabelFormatter } from "./_ui/charts/tooltip/label-formatter";
 
 //? Inline Style (Style Object)
 const Heading = {
@@ -208,6 +254,59 @@ export default function ShadcnPage() {
       <ToggleWithText />
       <h2 style={Heading}>Tooltip Demo</h2>
       <TooltipDemo />
+      <h2 style={Heading}>Area Chart Demo</h2>
+      <AreaChartAxis />
+      <AreaChartGradient />
+      <AreaChartIcon />
+      <AreaChartInteractive />
+      <AreaChartLegend />
+      <AreaChartLinear />
+      <AreaChartStacked />
+      <AreaChartStackedExpanded />
+      <AreaChartStep />
+      <h2 style={Heading}>Bar Chart Demo</h2>
+      <BarChartActive />
+      <BarChartCustomLabel />
+      <BarChartHorizontal />
+      <BarChartInteractive />
+      <BarChartLabel />
+      <BarChartMixed />
+      <BarChartMultiple />
+      <BarChartNegative />
+      <BarChartStackedLegend />
+      <h2 style={Heading}>Line Chart Demo</h2>
+      <LineChartCustomLabel />
+      <LineChartDotsColors />
+      <LineChartCustomLabel />
+      <LineChartLabel />
+      <LineChartLine />
+      <LineChartLinear />
+      <LineChartMultiple />
+      <LineChartStep />
+      <h2 style={Heading}>Pie Chart Demo</h2>
+      <PieChartCustomLabel />
+      <PieChartDonutActive />
+      <PieChartDonutText />
+      <PieChartLabelList />
+      <PieChartLegend />
+      <PieChartStacked />
+      <h2 style={Heading}>Radar Chart Demo</h2>
+      <RadarChartGridCircle />
+      <RadarChartLegend />
+      <RadarChartLinesOnly />
+      <RadarChartMultiple />
+      <RadarChartRadiusAxis />
+      <h2 style={Heading}>Radial Chart Demo</h2>
+      <RadialGrid />
+      <RadialLabel />
+      <RadialShape />
+      <RadialStacked />
+      <RadialText />
+      <h2 style={Heading}>Tooltip Chart Demo</h2>
+      <TooltipChartAdvance />
+      <TooltipChartCustomLabel />
+      <TooltipChartIcons />
+      <TooltipChartLabelFormatter />
     </main>
   );
 }
