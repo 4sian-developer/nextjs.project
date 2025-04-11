@@ -2,6 +2,8 @@
 import type { Metadata } from "next";
 //? GOOGLE FONTS & LOCAL FONTS | Optimized Fonts
 import { roboto, nunito } from "./(custom)/fonts/google-fonts";
+//? STYLESHEET | Global/Root
+import "@/styles/scss/globals.scss";
 
 export const metadata: Metadata = {
   title: "Create Next App",
